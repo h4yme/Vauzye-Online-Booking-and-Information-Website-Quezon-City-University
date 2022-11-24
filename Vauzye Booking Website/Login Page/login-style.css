@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    background-size: cover;
+    height: 100%;
+    background-image: linear-gradient(to bottom right, #184E77, #81AF99, #D9ED92);
+    background-repeat: no-repeat;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+    text-align: left;
+}
+
+
+.form-conts{
+    border-radius: 50px;
+    width: 1000px;
+    height: 550px;
+    background: linear-gradient(
+    to right, 
+    #ffffff 0%, 
+    #ffffff 50%, 
+    #72A294 50%, 
+    #72A294 100%);
+}
+
+input[type=text], select, input[type=password]{
+    width: 100%;
+    padding: 12px 10px;
+    margin: 10px 0;
+    display: inline-block;
+    border: none;
+    background-color: #C4D8D9;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 22px;
+  }
+
+
+.form-conts h1{
+    color: #2c2c2c;
+    position: relative;
+    left: 150px;
+    top: 80px;
+}
+
+.form-conts td{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.form-conts table{
+    position: relative;
+    top: 100px;
+    left: 50px;
+    width: 40%;
+    height: 10%;
+    border-collapse: separate;
+    border-spacing: 0px 20px;
+}
+
+table .button{
+    padding: 5px 20px;
+    font-size: 17px;
+    border: none;
+    background-color: rgba(44, 44, 44, 1);
+    color: #ffffff;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: rgba(44, 44, 44, 0.8);
+}
+
+
+.logo{
+    position: relative;
+    float: right;
+    right: 110px;
+    bottom: 190px;
+}
+
+.tagline{
+    position: relative;
+    float: right;
+    left: 160px;
+    bottom: 120px;
+    font-size: 17px;
+    text-align: center;
+    color: white;
+}
