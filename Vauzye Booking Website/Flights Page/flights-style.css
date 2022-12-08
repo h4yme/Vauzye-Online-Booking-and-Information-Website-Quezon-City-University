@@ -61,10 +61,9 @@ header{
   }
   
   .child{
-    background-image: url('/VAUZYE BOOKING WEBSITE/Images/Banaue.png');
+    background-image: url('/VAUZYE BOOKING WEBSITE/Images/Flights bg.png');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 10%;
     width: 1600px;
     height: 650px;
     border-radius: 50px;
@@ -75,7 +74,7 @@ header{
   margin-left: 120px;
   display: flex;
   position: relative;
-  top: 150px;
+  top: 300px;
 }
 
 .loc p{
@@ -98,15 +97,25 @@ header{
     font-size: 38px;
     letter-spacing: 2px;
     position: relative;
-    top: 135px;
+    top: 285px;
     left: 120px;
 }
 
+.des{
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    position: relative;
+    left: 120px;
+    top: 280px;
+    font-size: 20px;
+    max-width: 1000px;
+}
 .cont2{
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    height: 600px;
+    height: 550px;
 }
 
 .travel{
@@ -187,4 +196,8 @@ header{
     position: relative;
     left: 100px;
     background-color: red;
+}
+
+#active{
+    color: #659A3C;
 }
