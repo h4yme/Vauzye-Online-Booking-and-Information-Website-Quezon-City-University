@@ -18,7 +18,7 @@
                 <li><a href="/VAUZYE BOOKING WEBSITE/Flights Page/flights.html">Flights</a></li>
                 <li><a href="#">Hotels</a></li>
                 <li><a href="/VAUZYE BOOKING WEBSITE/Explore Page/explore.html">Explore</a></li>
-                <li><a href="#">About</a></li>
+                <li><a href="/VAUZYE BOOKING WEBSITE/About Page/About-us.html">About</a></li>
                 <li><a href="#" id="active">Contact Us</a></li>
             </ul>
         </nav>
